@@ -1,0 +1,15 @@
+$(document).ready(function() {
+  "use strict";
+
+  var questions = [{
+   
+    new Question("Who is the creator of PHP?", ["Jack Sparrow()","Rasmus Lerdorf()", "Tim Berners-Leed()", "Dennis Ritchie()"], "Rasmus Lerdorf()"),
+    new Question("When was the first implementation of Blockchain Technology", ["2009()","2008()", "2000()", "1991()"], "2009()"),
+    new Question("In which year was the first Playstation made", ["1994()","1992()", "1990()", "1995)"], "1994()"),
+    new Question("What does PHP mean today?",["HP: Personal Home Page()","PHP: Program High Performace()","PHP: Hypertext Preprocessor()","PHP: Hypertext Page()"], "HP: Personal Home Page()"),
+    new Question("Who is the creator of PHP?", ["Jack Sparrow()","Rasmus Lerdorf()", "Tim Berners-Leed()", "Dennis Ritchie()"], "Rasmus Lerdorf()"),
+    new Question("What is the last Sega console?", ["Dreamcast()","Saturn()", "S-Gage()", "Lindbergh()"], "Dreamcast()"),
+    new Question("What does www stands for?", ["Web wasabi world()","World wide web()", "Wide web world()", "Web war song()"], "World wide web()"),
+    new Question("What's the name of the UNIX creator?", ["Mark Shuttleworth()","Kenneth Thompson()", "Linus Torvalds()", "Bill Gates()"], "Kenneth Thompson()"),
+    new Question("When was born Alan Turing?", ["1981()","1891()", "1934()", "1912()"], "1912()"),
+    new Question("What is the port for the http", ["70()","90()", "82()", "80()"], "80()"), ];
